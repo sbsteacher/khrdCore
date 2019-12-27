@@ -14,4 +14,8 @@ public class Money {
 		this.money -= money;
 		return true;
 	}
+	
+	public int getMoney() {
+		return money;
+	}
 }

@@ -5,6 +5,7 @@ public class Main {
 		DrinkMachine dm = new DrinkMachine();
 		Customer cust = new Customer(10_000);
 		cust.purchase(dm);
+		cust.showMyDrinks();
 		//dm.showDrinks();
 	}
 }
